@@ -1,40 +1,46 @@
-# Calculadora Python
+Claro, aqui está um exemplo de README.md para o repositório "Calculadora_Python":
 
-Este é um simples projeto de uma calculadora desenvolvida em Python.
+# Calculadora em Python
+
+Este é um projeto de uma calculadora simples em Python, desenvolvida como parte de um exercício em um curso da FIAP. A calculadora permite realizar operações básicas como soma, subtração, multiplicação e divisão.
 
 ## Funcionalidades
 
-A calculadora suporta as seguintes operações matemáticas:
-- Adição (+)
-- Subtração (-)
-- Multiplicação (*)
-- Divisão (/)
+A calculadora tem as seguintes funcionalidades:
+
+- Soma: realiza a soma de dois números.
+- Subtração: realiza a subtração de dois números.
+- Multiplicação: realiza a multiplicação de dois números.
+- Divisão: realiza a divisão de dois números.
+- Potenciação: calcula a potência de um número.
 
 ## Como usar
 
-1. Clone o repositório para o seu computador
-```
-git clone https://github.com/JuanPinheiroFIAP/Calculadora_Python.git
-```
+Para utilizar a calculadora, basta executar o arquivo `calculadora.py` em um ambiente Python. O programa irá solicitar que o usuário informe a operação desejada e os números envolvidos na operação. Em seguida, a calculadora irá exibir o resultado da operação.
 
-2. Navegue até a pasta do projeto
-```
-cd Calculadora_Python
-```
+## Exemplo de uso
 
-3. Execute o arquivo `calculadora.py` em seu terminal
-```
-python calculadora.py
-```
+```python
+# Exemplo de uso da calculadora
 
-4. Insira os números e a operação desejada
-
-5. Pressione Enter para obter o resultado
+>>> python calculadora.py
+Digite a operação desejada (+, -, *, /, sqrt, pow): +
+Digite o primeiro número: 10
+Digite o segundo número: 5
+O resultado da operação é: 15
+```
 
 ## Contribuição
 
-Este é um projeto simples, mas sinta-se livre para contribuir. Se você tiver alguma ideia ou sugestão para melhorar a calculadora, abra uma issue ou envie um pull request.
+Contribuições são bem-vindas! Caso você queira contribuir com a calculadora, basta seguir os seguintes passos:
+
+1. Faça um fork deste repositório.
+2. Crie um branch para sua nova feature (`git checkout -b feature/nome-da-feature`).
+3. Faça suas alterações no código.
+4. Faça o commit de suas alterações (`git commit -m "Adicionando nova feature"`).
+5. Envie suas alterações para o branch principal (`git push origin feature/nome-da-feature`).
+6. Abra um pull request.
 
 ## Licença
 
-Este projeto é licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para obter mais detalhes.
+Este projeto é licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
