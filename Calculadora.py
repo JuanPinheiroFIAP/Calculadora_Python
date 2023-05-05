@@ -1,16 +1,6 @@
 import math
 from os import system, name
 from time import sleep
-
-def bhaskara():
-    raiz = math.sqrt(delta)
-    print(raiz)
-    result = -b + delta 2* a * c
-
-def função(a,b,c):
-    return(b*b - 4*a*c)
-
-
 def clean():
     if name == 'nt':
         _ = system('cls')
@@ -22,6 +12,7 @@ print("Sejá bem vindo a minha calculadora!")
 print("Vamos calcular!")
 print("Ok vamos lá!")
 while True:
+    print("----"*20)
     print('''
             [1] - Adição
             [2] - Subtração
@@ -29,11 +20,16 @@ while True:
             [4] - Multiplicação
             [5] - Funções
             [6] - Exit''')
+    print()
+    print("----"*20)
     menu = input("Qual a opção que você quer escolher? ")
+    print(resultado)
 
     if menu in ('1', '2' , '3' , '4',):
+        print("----"*20)
         num1 = int(input("digite seu primeiro número: "))
         num2 = int(input("digite seu segundo número: "))
+        print("----"*20)
 
     elif menu in '6':
         print("Tchau!")
@@ -42,12 +38,16 @@ while True:
     match menu:
         case '1':
             resultado = num1 + num2
+            print("----"*20)
             print(f"O resultado da sua adição foi {resultado}")
+            print("----"*20)
             sleep(3)
             clean()
         case '2':
             resultado = num1 - num2
+            print("----"*20)
             print(f"O resultado da sua subtração foi {resultado}")
+            print("----"*20)
             sleep(3)
             clean()
         case '3':
@@ -57,12 +57,16 @@ while True:
                  clean()
             else:
                 resultado = num1 / num2
+                print("----"*20)
                 print(f"O resultado da sua divisão foi de {resultado}")
+                print("----"*20)
                 sleep(3)
                 clean()
         case '4':
             resultado = num1 * num2
+            print("----"*20)
             print(f"O resultado da sua multiplicação foi de {resultado}")
+            print("----"*20)
             sleep(3)
             clean()
         case '5':
@@ -84,10 +88,24 @@ while True:
                 a = int(input('Qual é o valor do seu "a"? '))
                 b = int(input('Qual é o valor do seu "b"?'))
                 c = int(input('Qual é o valor do seu "c"?'))
-                delta = função(a,b,c)
+                delta = (b**2)-(4*a*c)
 
+                if delta < 0:
+                    print("Não será possivel calcular quando o delta for negativo")
+                    exit()
+                    sleep(3)
+                    clean()
 
-
+                else :
+                    x=math.sqrt(delta)
+                    x1=(-b+x)/(2*a)
+                    x2=(-b-x)/(2*a)
+                    print("----"*20)
+                    print(f"O valor do seu x1 é ==>{x1}") 
+                    print(f"O valor do seu x2 é ==>{x2}")
+                    print("----"*20)
+                    sleep(3)
+                    clean()
         case _:
             print("Opção invalida!")
             sleep(3)
