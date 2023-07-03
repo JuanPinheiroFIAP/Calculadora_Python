@@ -44,8 +44,7 @@ while True:
         print("----"*20)
         print()
         print("Até mais!")
-        print(9
-        )
+        print()
         print("----"*20)
         break
     
@@ -69,7 +68,7 @@ while True:
             clean()
 
         case '3':
-            if num2 != 0:
+            if num2 == 0:
                  print("Não é possivel fazer uma divisão por zero")
                  sleep(3)
                  clean()
@@ -98,7 +97,6 @@ while True:
 
             if delta < 0:
                 print("Não será possivel calcular quando o delta for negativo")
-                exit()
                 sleep(3)
                 clean()
 
