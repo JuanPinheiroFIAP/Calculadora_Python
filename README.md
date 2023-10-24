@@ -1,6 +1,6 @@
 # Calculadora em Python
 
-Este é um projeto de uma calculadora simples em Python, fesenvolvida para aperfeiçoamento do conteúdo estudado.
+Este é um projeto de uma calculadora simples em Python, desenvolvida para aperfeiçoamento do conteúdo estudado.
 
 ## Funcionalidades
 
