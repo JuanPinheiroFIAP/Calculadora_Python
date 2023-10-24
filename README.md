@@ -29,18 +29,3 @@ Digite o primeiro número: 10
 Digite o segundo número: 5
 O resultado da operação é: 15
 ```
-
-## Contribuição
-
-Contribuições são bem-vindas! Caso você queira contribuir com a calculadora, basta seguir os seguintes passos:
-
-1. Faça um fork deste repositório.
-2. Crie um branch para sua nova feature (`git checkout -b feature/nome-da-feature`).
-3. Faça suas alterações no código.
-4. Faça o commit de suas alterações (`git commit -m "Adicionando nova feature"`).
-5. Envie suas alterações para o branch principal (`git push origin feature/nome-da-feature`).
-6. Abra um pull request.
-
-## Licença
-
-Este projeto é licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
