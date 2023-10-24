@@ -1,6 +1,6 @@
 # Calculadora em Python
 
-Este é um projeto de uma calculadora simples em Python, desenvolvida como parte de um exercício em um curso da FIAP. A calculadora permite realizar operações básicas como soma, subtração, multiplicação e divisão.
+Este é um projeto de uma calculadora simples em Python, fesenvolvida para aperfeiçoamento do conteúdo estudado.
 
 ## Funcionalidades
 
