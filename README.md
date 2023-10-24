@@ -1,5 +1,3 @@
-Claro, aqui está um exemplo de README.md para o repositório "Calculadora_Python":
-
 # Calculadora em Python
 
 Este é um projeto de uma calculadora simples em Python, desenvolvida como parte de um exercício em um curso da FIAP. A calculadora permite realizar operações básicas como soma, subtração, multiplicação e divisão.
